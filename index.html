@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seventeen Town</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" id="logo"><span>17</span>Town</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#book">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Album</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#about">Seventeen</a></li>
+                            <li><a class="dropdown-item" href="#members">Members</a></li>
+                            <li><a class="dropdown-item" href="#units">Units</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="icons">
+                    <i class="fas fa-search" id="search-btn"></i>
+                    <i class="fas fa-user" id="login-btn"></i>
+                </div>
+                <form class="search-bar-container" action="">
+                    <input id="search-bar" type="search" placeholder="Search">
+                    <label for="search-bar" class="fas fa-search"></label>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--Nav-->
+
+    <!-- Login -->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="Login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forget password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Register now</a></p>
+        </form>
+    </div>
+    <!-- Login -->
+
+    <!--Home-->
+    <div class="home">
+        <div id="video-background">
+            <video autoplay loop muted>
+                <source src="./images/background1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="content">
+            <h5>Welcome To 17 World</h5>
+            <h1>Check <span class="changeContent"></span></h1>
+            <!-- <p>Welcome to Seventeen Town, your go-to destination for authentic Seventeen albums! Explore our extensive
+                collection and immerse yourself in the captivating music of this extraordinary South Korean boy band.
+                With our user-friendly interface and secure payment options, it's never been easier to own the albums
+                that showcase Seventeen's talent and artistry. Start your Seventeen album collection today and
+                experience the magic of their music firsthand. Shop now at Seventeen Town!</p> -->
+            <a href="#book">Order Now</a>
+        </div>
+    </div>
+    <!--Home-->
+
+    <!-- News -->
+    <section class="news" id="news">
+        <div class="container">
+            <div class="main-text">
+                <h1><span>N</span>ews</h1>
+            </div>
+            <div class="row-n" style="margin-top: 30px;">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="./images/news1.jpg" alt="" id="">
+                    </div>
+                    <div class="info-container">
+                        <h6>Seventeen's Dino achieves global success with debut...</h6>
+                        <p>Seventeen's Dino is making waves worldwide with his debut solo mixtape 'Wait'...
+                            <a href="https://www.allkpop.com/article/2023/11/seventeens-dino-achieves-global-success-with-debut-solo-mixtape-wait"
+                                target="_blank">Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image-container">
+                        <img src="./images/news2.jpg" alt="" id="">
+                        <img src="./images/news2-1.jpg" alt="" id="">
+                    </div>
+                    <div class="info-container">
+                        <h6>IVE & LE SSERAFIM certified platinum in streaming...</h6>
+                        <p>Circle Chart has added the following new certifications in album sales and digital streaming
+                            for the month of December!...
+                            <a href="https://www.allkpop.com/article/2023/12/ive-le-sserafim-certified-platinum-in-streaming-seventeen-tomorrow-x-together-nct-127-more-certified-in-album-sales-by-circle-chart"
+                                target="_blank">Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image-container">
+                        <img src="./images/news3.jpg" alt="" id="">
+                        <img src="./images/news3-1.jpg" alt="" id="">
+                    </div>
+                    <div class="info-container">
+                        <h6>SEVENTEEN Session at the 13th UNESCO Youth Forum</h6>
+                        <p>On 14 November 2023, the K-pop group SEVENTEEN will take part in a special session during the
+                            UNESCO Youth Forum...
+                            <a href="https://www.unesco.org/en/articles/seventeen-session-13th-unesco-youth-forum"
+                                target="_blank">Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image-container">
+                        <img src="./images/news4.jpg" alt="" id="">
+                        <img src="./images/news4-1.jpg" alt="" id="">
+                    </div>
+                    <div class="info-container">
+                        <h6>SEVENTEEN Announces 11th Mini Album ‘SEVENTEENTH Heaven’...</h6>
+                        <p>The set will follow FML, which hit No. 2 on the Billboard 200....
+                            <a href="https://www.billboard.com/music/music-news/seventeen-11th-mini-album-seventeenth-heaven-release-date-1235415796/"
+                                target="_blank">Read More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News -->
+
+    <!--Book-->
+    <section class="book" id="book">
+        <div class="container">
+            <div class="main-text">
+                <h1><span>O</span>rder</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/order1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 py-3 py-md-0">
+                    <form action="#">
+
+                        <h5>Name:</h5>
+                        <input type="text" class="form-control" placeholder="Enter you name here..." required>
+
+                        <h5>Email:</h5>
+                        <input type="email" class="form-control" placeholder="Enter your email..." required>
+
+                        <h5>Album:</h5>
+                        <select class="form-control">
+                            <option id="default" checked>Choose Your Album</option>
+                            <option id="op" checked>Seventeenth Heaven</option>
+                            <option id="op" checked>Always Yours</option>
+                            <option id="op" checked>FML</option>
+                            <option id="op" checked>Sector 17</option>
+                            <option id="op" checked>Face the Sun</option>
+                            <option id="op" checked>Darl+ing</option>
+                            <option id="op" checked>Power of Love</option>
+                            <option id="op" checked>Attacca</option>
+                            <option id="op" checked>Your Choice</option>
+                        </select>
+
+                        <h5>Message:</h5>
+                        <textarea class="form-control" rows="5" name="text" placeholder="Enter your details"></textarea>
+
+                        <input type="submit" value="Order" class="submit" required>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Book-->
+
+    <!-- Packages -->
+    <section class="packages" id="packages">
+        <div class="container">
+            <div class="main-txt">
+                <h1><span>A</span>lbum</h1>
+            </div>
+            <div class="row-p" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/seventeenth-heaven.jpg" alt="" id="seventeenth-heaven">
+                        <div class="card-body">
+                            <h3>Seventeenth Heaven</h3>
+                            <p>11th Mini Album. Released on October, 23rd 2023.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$23.99 </strong> <s class="strike">$29.99</s></h6>
+                            <a href="#book">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/always-yours.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Always Yours</h3>
+                            <p>1st Japanese Best Album. Released on August 23rd, 2023.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$24.99 </strong><s class="strike">$25.99</s></h6>
+                            <a href="#book">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/fml.png" alt="">
+                        <div class="card-body">
+                            <h3>FML</h3>
+                            <p>10th Mini Album. Released on April 24th, 2023.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$23.99 </strong><s class="strike">$27.99</s></h6>
+                            <a href="#book">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/sector-17.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Sector 17</h3>
+                            <p>2nd Repackage Album. Released on July 18th, 2022.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$23.99 </strong><s class="strike">$24.99</s></h6>
+                            <a href="#book">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/face-the-sun.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Face the Sun</h3>
+                            <p>4th Full Album. Released on May 27th, 2022.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$19.99 </strong><s class="strike">$23.99</s></h6>
+                            <a href="#book">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/darling.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Darl+ing</h3>
+                            <p>2nd Digital Single (English). Released on April 15th, 2022.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$15.99</strong><s class="strike"> $17.99</s></h6>
+                            <a href="#book">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/power-of-love.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Power of Love</h3>
+                            <p>1st Japanese Special Single. Released on November 29th, 2021.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$23.99 </strong><s class="strike">$24.99</s></h6>
+                            <a href="#book">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/attaca.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Attacca</h3>
+                            <p>9th Mini Album. Released on October 22nd, 2021
+                            </p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$26.99 </strong><s class="strike">$27.99</s></h6>
+                            <a href="#book">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/your-choice.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Your Choice</h3>
+                            <p>8th Mini Album. Released on June 18th, 2021.
+                            </p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price: <strong>$24.99 </strong><s class="strike">$25.99</s></h6>
+                            <a href="#book">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Packages -->
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="main-txt">
+                <h1><span>S</span>ervices</h1>
+            </div>
+            <div class="row" style="margin-top: 30px">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fas fa-handshake"></i>
+                        <div class="card-body">
+                            <h3>Fan Meeting</h3>
+                            <p>Buying an album may increase your chance of winning a fan meeting ticket, but it's
+                                important to check the official announcements for specific details and requirements.
+                                Engaging with the album and creating appealing content can also boost your chances.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fas fa-music"></i>
+                        <div class="card-body">
+                            <h3>Concert</h3>
+                            <p>Buying an album on this website provides fans with a chance to attend the concert through
+                                special promotions or contests. It's a rewarding opportunity for supporters to enjoy a
+                                live concert experience.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fas fa-panorama"></i>
+                        <div class="card-body">
+                            <h3>Photocard Official</h3>
+                            <p>Level up your collection with official photocards! Snag limited edition treasures when
+                                you buy albums or merchandise. Add excitement and allure to your fan experience. Look
+                                out for promotions to boost your chances of scoring these coveted official photocards.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 30px">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fas fa-percent"></i>
+                        <div class="card-body">
+                            <h3>Vouchers</h3>
+                            <p>For multiple orders, we provide enticing benefits like discount vouchers or free
+                                shipping as a token of our appreciation. Enjoy exclusive discounts on future
+                                purchases with voucher codes or take advantage of complimentary shipping for bulk
+                                orders.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fas fa-circle-info"></i>
+                        <div class="card-body">
+                            <h3>News</h3>
+                            <p>By purchasing an album on our website, you will receive exclusive updates and news
+                                about your favorite idols. Stay connected and be the first to know about the latest
+                                updates from the idol world.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fas fa-store"></i>
+                        <div class="card-body">
+                            <h3>Pre-Order</h3>
+                            <p>Choose our website for early album pre-orders. Secure your copy before the official
+                                release date and be one of the first to enjoy new releases from your favorite idols.
+                                Stay ahead of the crowd and experience the excitement from the moment it becomes
+                                available.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Services -->
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="main-txt">
+                <h1><span>G</span>allery</h1>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g1.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g4.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g5.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/g6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Gallery -->
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="main-txt">
+                <h1><span>A</span>bout</h1>
+            </div>
+
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./images/temp.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-3 py-md-0">
+                    <h2>Seventeen</h2>
+                    <p>Seventeen is a South Korean boy band formed by Pledis Entertainment. They debuted on May 26,
+                        2015, with their extended play (EP) titled "17 Carat." The group consists of thirteen members,
+                        who are divided into three sub-units: the hip-hop unit, the vocal unit, and the performance
+                        unit. Each unit has its own unique style and showcases different talents.</p>
+                    <p class="more-text hide">
+                        Members of Seventeen:<br>
+                        1. S.Coups (Leader, Rapper)<br>
+                        2. Jeonghan (Vocalist)<br>
+                        3. Joshua (Vocalist)<br>
+                        4. Jun (Vocalist)<br>
+                        5. Hoshi (Leader of Performance Unit, Main Dancer, Rapper)<br>
+                        6. Wonwoo (Rapper)<br>
+                        7. Woozi (Leader of Vocal Unit, Main Vocalist)<br>
+                        8. DK (Main Vocalist)<br>
+                        9. Mingyu (Rapper)<br>
+                        10. The8 (Dancer, Rapper)<br>
+                        11. Seungkwan (Main Vocalist)<br>
+                        12. Vernon (Rapper)<br>
+                        13. Dino (Main Dancer, Rapper, Maknae/Youngest Member)<br><br>
+                        Seventeen is known for their self-produced music and choreography, as many of the members
+                        actively participate in the songwriting, producing, and arranging of their songs. They have
+                        released several successful albums and EPs, including "Love & Letter," "Teen, Age," "An Ode,"
+                        and "Your Choice."<br>
+                        The group's music style encompasses various genres, including pop, hip-hop, R&B, and EDM. They
+                        are recognized for their energetic performances, intricate choreography, and synchronized
+                        teamwork. Seventeen has gained a significant following both domestically in South Korea and
+                        internationally, with a dedicated fanbase known as "Carats."<br>
+                        Seventeen has received numerous awards and accolades throughout their career, including multiple
+                        wins on music shows, Daesang (Grand Prize) awards, and international recognition. They have
+                        embarked on several world tours, including "Diamond Edge," "Ideal Cut," and "Ode to You,"
+                        showcasing their talent and stage presence to audiences around the world.<br>
+                        In addition to their music activities, Seventeen members have also pursued individual endeavors,
+                        such as appearing on television shows, hosting radio programs, and participating in acting
+                        projects.
+                    </p>
+
+                    <button id="about-btn" onclick="toggleReadMore()">Read More</button>
+                </div>
+            </div>
+
+            <div id="members">
+                <div class="main-txt">
+                    <h1><span>M</span>embers</h1>
+                </div>
+
+                <div class="row-m" style="margin-top: 30px;">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/scoups.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Choi Seungcheol (Scoups)</h4>
+                                <p>Born: August 8th, 1995<br>
+                                    Instagram: <a href="https://www.instagram.com/sound_of_coups/?hl=en"
+                                        target="_blank">sound_of_coups</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/jeonghan.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Yoon Jeonghan</h4>
+                                <p>Born: October 4th, 1995<br>
+                                    Instagram: <a href="https://www.instagram.com/jeonghaniyoo_n/?hl=en"
+                                        target="_blank">jeonghaniyoo_n</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/joshua.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Hong Jisoo (Joshua)</h4>
+                                <p>Born: December 30th, 1995<br>
+                                    Instagram: <a href="https://www.instagram.com/joshu_acoustic/?hl=en"
+                                        target="_blank">joshu_acoustic</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/jun.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Mun Junhwi (Jun)</h4>
+                                <p>Born: June 10th, 1996<br>
+                                    Instagram: <a href="https://www.instagram.com/junhui_moon/?hl=en"
+                                        target="_blank">junhui_moon</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/hoshi.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Kwon Soonyoung (Hoshi)</h4>
+                                <p>Born: June 15th, 1996<br>
+                                    Instagram: <a href="https://www.instagram.com/ho5hi_kwon/?hl=en"
+                                        target="_blank">ho5hi_kwon</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/wonwoo.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Jeon Wonwoo</h4>
+                                <p>Born: July 17th, 1996<br>
+                                    Instagram: <a href="https://www.instagram.com/everyone_woo/?hl=en"
+                                        target="_blank">everyone_woo</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/woozi.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Lee Jihoon (Woozi)</h4>
+                                <p>Born: November 22nd, 1996<br>
+                                    Instagram: <a href="https://www.instagram.com/woozi_universefactory/?hl=en"
+                                        target="_blank">woozi_universefactory</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/dk.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Lee Seokmin (DK)</h4>
+                                <p>Born: February 18th, 1997<br>
+                                    Instagram: <a href="https://www.instagram.com/dk_is_dokyeom/?hl=en"
+                                        target="_blank">dk_is_dokyeom</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/mingyu.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Kim Mingyu</h4>
+                                <p>Born: April 6th, 1997<br>
+                                    Instagram: <a href="https://www.instagram.com/min9yu_k/?hl=en"
+                                        target="_blank">min9yu_k</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/the8.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Seo Myungho (The8)</h4>
+                                <p>Born: November 7th, 1997<br>
+                                    Instagram: <a href="https://www.instagram.com/xuminghao_o/?hl=en"
+                                        target="_blank">xuminghao_o</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/seungkwan.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Boo Seungkwan</h4>
+                                <p>Born: January 16th, 1998<br>
+                                    Instagram: <a href="https://www.instagram.com/pledis_boos/?hl=en"
+                                        target="_blank">pledis_boos</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/vernon.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Chwe Hansol (Vernon)</h4>
+                                <p>Born: February 18th, 1998<br>
+                                    Instagram: <a href="https://www.instagram.com/vernonline/?hl=en"
+                                        target="_blank">vernonline</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/dino.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Lee Chan (Dino)</h4>
+                                <p>Born: February 11th, 1999<br>
+                                    Instagram: <a href="https://www.instagram.com/feat.dino/?hl=en"
+                                        target="_blank">feat.dino</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="units">
+                <div class="main-txt">
+                    <h1><span>U</span>nits</h1>
+                </div>
+
+                <div class="row-m" style="margin-top: 30px;">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/bss.jpeg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>BSS</h4>
+                                <p>Members: DK, Hoshi, Seungkwan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/svt-leader.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>SVT Leaders</h4>
+                                <p>Members: Scoups, Hoshi, Woozi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/vocal.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Vocal Team</h4>
+                                <p>Members: Woozi, Jeonghan, Joshua, DK, Seungkwan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/hiphop.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Hip-Hop Team</h4>
+                                <p>Members: Scoups, Wonwoo, Mingyu, Vernon
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/performance.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Performance Team</h4>
+                                <p>Members: Hoshi, Jun, The8, Dino
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/95.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>95 Line</h4>
+                                <p>Members: Scoups, Jeonghan, Joshua
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/96.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>96 Line</h4>
+                                <p>Members: Jun, Hoshi, Wonwoo, Woozi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/97.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>97 Line</h4>
+                                <p>Members: DK, Mingyu, The8
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/maknae.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Maknae Line</h4>
+                                <p>Members: Seungkwan, Vernon, Dino
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/bittersweat.jpg" alt="" id="mem">
+                            <div class="card-body">
+                                <h4>Bittersweat</h4>
+                                <p>Members: Wonwoo, Mingyu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="main-txt">
+                <h1><span>C</span>ontact</h1>
+            </div>
+            <div class="row">
+                <div class="image">
+                    <img src="./images/contact1.jpg" alt="">
+                </div>
+
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="Enter your name...">
+                        <input type="email" placeholder="Enter your email...">
+                    </div>
+                    <div class="inputBox">
+                        <input type="tel" placeholder="Enter your number...">
+                        <input type="text" placeholder="Enter your subject...">
+                    </div>
+                    <textarea placeholder="Enter your details..." name="" id="" cols="30" rows="10"></textarea><br>
+                    <input type="button" class="btn" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-block">
+            <h1><span>17</span>Town</h1>
+            <p>Welcome to 17Town, your premier destination for the best-priced Seventeen albums. We offer a wide
+                selection of albums from the popular South Korean boy band, Seventeen, at unbeatable prices. Explore our
+                collection of discography, limited editions, and special releases. Shop now and experience the joy of
+                Seventeen's music at 17Town!</p>
+        </div>
+        <div class="footer-block">
+            <div class="information" style="margin-top: 45px;">
+                <h3>Contact Information:</h3>
+                <p>Email: <a href="">17town@gmail.com</a></p>
+                <p>Phone: <a href="">+123456789</a></p>
+                <p>Address: 25 ABC Street, Binh Duong, Vietnam</p>
+                <p>Contact Form: <a href="#contact">Click Here</a></p>
+            </div>
+        </div>
+        <div class="footer-block">
+            <div class="social-links">
+                <a href="https://twitter.com/pledis_17" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/seventeennews" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/saythename_17/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@pledis17" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@seventeen17_official" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <div class="payment">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-paypal"></i>
+                <i class="far fa-credit-card"></i>
+                <i class="fab fa-cc-mastercard"></i>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.2895379772513!2d126.96165267558081!3d37.52467152652804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1dfe9605e1f%3A0x3d65021f362cdfde!2sPledis%20Entertainment!5e0!3m2!1svi!2s!4v1701934649234!5m2!1svi!2s"
+                    width="350" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="credit">
+            <p>Designed By <a href="https://www.instagram.com/_winter.evil_/" target="_blank" id="ig">winterevil</a>
+            </p>
+        </div>
+        <div class="copyright">
+            <p>&copy; Copyright <a href="https://www.instagram.com/_winter.evil_/" target="_blank"
+                    id="ig">winterevil</a>. All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Scroll-To-Top -->
+    <button id="scrollToTopBtn" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- Scroll-To-Top -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
